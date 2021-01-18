@@ -1,6 +1,10 @@
 import java.util.*;
 class Main
 {
+    Main()
+    {
+        
+    }
     Main(int n)
     {
         
