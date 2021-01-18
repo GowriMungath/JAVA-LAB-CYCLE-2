@@ -1,11 +1,11 @@
 import java.util.*;
-class Main
+class Queue
 {
-    Main()
+    Queue()
     {
         
     }
-    Main(int n)
+    Queue(int n)
     {
         
     }
@@ -60,7 +60,7 @@ class Main
         System.out.println("1.ENQUEUE 2.DEQUEUE 3.DISPLAY 4.EXIT");
         System.out.print("Enter your choice : ");
         int ch = sc.nextInt();
-        Main q = new Main(n);
+        Queue q = new Queue(n);
         if(ch==1)
         {
             q.enqueue(n);
