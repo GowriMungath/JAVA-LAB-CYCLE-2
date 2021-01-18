@@ -1,5 +1,5 @@
 import java.util.*;
-class Area 
+class Areaa
 {
 void area(int l,int b)
 {
@@ -19,7 +19,7 @@ class Main
     public static void main (String[] args)
     {
     Scanner sc = new Scanner(System.in);
-    Area a = new Area();
+    Areaa a = new Areaa();
     System.out.println("1.RECTANGLE");
     System.out.println("2.CIRCLE");
     System.out.println("Enter your choice : ");
